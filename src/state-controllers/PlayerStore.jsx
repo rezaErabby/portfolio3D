@@ -1,7 +1,7 @@
 import create from 'zustand';
 
 const usePlayerStore = create((set) => ({
-  position: [0, 0, 0],
+  position: [1.05, 0.89, 0.1],
   updatePosition: (newPosition) => set({ position: newPosition }),
 }));
 
